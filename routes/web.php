@@ -22,6 +22,9 @@ Route::get('/logout', function () {
 Route::get('/', function () {
     return view('Home');
 });
+Route::get('/insert_product',"product@insert_product" );
+//get tem we will turn it to post
+Route::get('/add_product',"product@add_product" );
 
 Auth::routes();
 
