@@ -33,6 +33,9 @@
      <li class="nav-item">
      	<a  class="nav-link" href="#">{{Auth::user()->name}}</a>
      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="{{url('products')}}">Products</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="{{url('logout/')}}">Log out</a>
       </li>

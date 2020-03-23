@@ -7,12 +7,20 @@ use DB;
 class product extends Controller
 {
     //
-
+    
 public function add_product(){
 
 
 
 return view('admin.addpo');
+
+}
+
+
+public function show_products(){
+
+
+	return view ('layouts.products');
 
 }
 public function insert_product(){

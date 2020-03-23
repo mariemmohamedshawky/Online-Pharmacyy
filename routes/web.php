@@ -25,7 +25,10 @@ Route::get('/', function () {
 Route::get('/insert_product',"product@insert_product" );
 //get tem we will turn it to post
 Route::get('/add_product',"product@add_product" );
+Route::get('/products',"product@show_products" );
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
